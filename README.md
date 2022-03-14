@@ -8,7 +8,7 @@
 * [Using](#using)
 
 ## Summary
-My interview assignment (available in [this](https://github.com/HosseinDotLink/pinmeto-test/blob/main/robot.me) link) was about calculating robot position.
+My interview assignment (available in [this](https://github.com/HosseinDotLink/pinmeto-test/blob/main/robot.md) link) was about calculating robot position.
 
 
 ##### Tech
