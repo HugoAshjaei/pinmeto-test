@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "01a9c552-fd8e-4417-b547-b37e7493df05",
+		"name": "pinmeto-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "calculate position",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"room\": \"square\",\n    \"roomSize\": 5,\n    \"start\": [1,2],\n    \"instructions\": \"HGHGGHGHG\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/calculate",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "localhost:3000"
+		}
+	]
+}

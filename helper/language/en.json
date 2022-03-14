@@ -1,0 +1,8 @@
+{
+  "serverIsRunning": "Welcome, Server is running at port: ",
+  "enterDataCorrectly": "Please enter required data correctly.",
+  "success": "Success.",
+  "failed": "Failed.",
+  "notFound": "Not found.",
+  "outOfRoom": "Out of room!"
+}
